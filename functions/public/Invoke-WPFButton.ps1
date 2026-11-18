@@ -158,6 +158,7 @@ function Invoke-WPFButtonAction {
     Switch -Wildcard ($Button) {
         "WPFTab?BT" {Invoke-WPFTab $Button}
         "WPFInstall" {Invoke-WPFInstall}
+        "WPFSetupEverything" {Invoke-WPFSetupEverything}
         "WPFUninstall" {Invoke-WPFUnInstall}
         "WPFInstallUpgrade" {Invoke-WPFInstallUpgrade -ManagerPreference $ManagerPreference}
         "WPFCollapseAllCategories" {Invoke-WPFToggleAllCategories -Action "Collapse"}

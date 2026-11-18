@@ -1970,6 +1970,24 @@
     ],
     "link": "https://winutil.christitus.com/code-reference/tweaks/customize-preferences/longpaths"
   },
+  "WPFToggleHAGS": {
+    "Content": "Hardware-accelerated GPU Scheduling",
+    "Description": "Lets the GPU manage its own VRAM scheduling. A restart is required after changing this, and some frame-generation features need it enabled.",
+    "category": "Customize Preferences",
+    "panel": "2",
+    "Type": "Toggle",
+    "registry": [
+      {
+        "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\GraphicsDrivers",
+        "Name": "HwSchMode",
+        "Value": "2",
+        "Type": "DWord",
+        "OriginalValue": "1",
+        "DefaultState": "false"
+      }
+    ],
+    "link": "https://winutil.christitus.com/code-reference/tweaks/customize-preferences/hags"
+  },
   "WPFOOSUbutton": {
     "Content": "O&O ShutUp10++ - Run",
     "Description": "Downloads O&O ShutUp10++ (about 82 MB) from oo-software.com on every click and launches it. Nothing is installed; the file is saved under %LocalAppData%\\winutil.",

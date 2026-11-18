@@ -168,6 +168,7 @@ function Start-WinUtilJob {
             "Install"     { "Install" }
             "Uninstall"   { "Install" }
             "Upgrade all Applications" { "Install" }
+            "Setup everything" { "Install" }
             "Tweaks"      { "Tweaks" }
             "Undo tweaks" { "Tweaks" }
             default       { $null }

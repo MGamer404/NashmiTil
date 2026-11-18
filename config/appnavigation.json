@@ -20,6 +20,13 @@
         "Order": "3",
         "Description": "Upgrade all applications to the latest version"
     },
+    "WPFSetupEverything": {
+        "Content": "Setup everything",
+        "Category": "____Actions",
+        "Type": "Button",
+        "Order": "4",
+        "Description": "Install the standard app set, apply the recommended tweaks, and enable GPU scheduling"
+    },
     "WingetRadioButton": {
         "Content": "WinGet",
         "Category": "__Package Manager",
