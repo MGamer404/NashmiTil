@@ -17,14 +17,9 @@ A curated compilation of Windows system tasks to streamline **installs**, debloa
 
 Open PowerShell or Terminal as admin, then run:
 
-**Stable Branch (recommended)**
+**Fork build (recommended)**
 ```ps1
-irm https://christitus.com/win | iex
-```
-
-**Development Branch**
-```ps1
-irm https://christitus.com/windev | iex
+irm https://github.com/MGamer404/NashmiTil/releases/latest/download/winutil.ps1 | iex
 ```
 
 ### How to open an admin terminal
@@ -39,7 +34,7 @@ irm https://christitus.com/windev | iex
 Apply a predefined configuration without manual selection:
 
 ```powershell
-& ([ScriptBlock]::Create((irm https://christitus.com/win))) -Preset Standard
+& ([ScriptBlock]::Create((irm https://github.com/MGamer404/NashmiTil/releases/latest/download/winutil.ps1))) -Preset Standard
 ```
 
 | Preset | Description |

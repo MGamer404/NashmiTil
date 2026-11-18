@@ -51,23 +51,16 @@ There are several ways to open PowerShell with admin rights:
 
 ### Step 2: Run the launch command
 
-With PowerShell running as Administrator, run one of the following commands depending on the release channel you want.
+With PowerShell running as Administrator, run:
 
-**Stable release (recommended)**
-
-```powershell
-irm "https://christitus.com/win" | iex
-```
-
-**Development branch (bleeding edge — for testing only)**
+**Fork build (recommended)**
 
 ```powershell
-irm "https://christitus.com/windev" | iex
+irm "https://github.com/MGamer404/NashmiTil/releases/latest/download/winutil.ps1" | iex
 ```
 
 :::note
 - The `irm` command downloads the script, and `iex` executes it. This is safe when downloading from the official source.
-- The development branch may contain experimental changes and should only be used for testing on non-production systems.
 :::
 
 ### Step 3: Wait for WinUtil to load
@@ -225,7 +218,7 @@ WinUtil offers several preset configurations:
 If the launch command fails:
 
 - Make sure PowerShell or Terminal is running as Administrator.
-- Confirm the PC has internet access and can reach `christitus.com`.
+- Confirm the PC has internet access and can reach `github.com`.
 - Retry from a normal PowerShell session rather than a restricted enterprise shell profile.
 - If the command starts and then closes immediately, reopen Terminal as Administrator and run it again so you can read the error output.
 
