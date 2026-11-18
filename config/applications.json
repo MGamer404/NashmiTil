@@ -531,6 +531,15 @@
         "winget": "Schniz.fnm",
         "foss": true
     },
+    "freedownloadmanager": {
+        "category": "Utilities",
+        "choco": "freedownloadmanager",
+        "content": "Free Download Manager",
+        "description": "Free Download Manager is a download manager that accelerates downloads, resumes interrupted transfers, and handles torrent files from one interface.",
+        "link": "https://www.freedownloadmanager.org/",
+        "winget": "SoftDeluxe.FreeDownloadManager",
+        "foss": false
+    },
     "foxpdfreader": {
         "category": "Document",
         "choco": "foxitreader",
@@ -873,6 +882,15 @@
         "winget": "LibreWolf.LibreWolf",
         "foss": true
     },
+    "lightshot": {
+        "category": "Multimedia Tools",
+        "choco": "lightshot",
+        "content": "Lightshot",
+        "description": "Lightshot is a lightweight screenshot tool that captures any screen area, lets you annotate it, and uploads it for sharing in a couple of clicks.",
+        "link": "https://app.prntscr.com/",
+        "winget": "Skillbrains.Lightshot",
+        "foss": false
+    },
     "localsend": {
         "category": "Selfhosted Tools",
         "choco": "localsend.install",
@@ -1103,6 +1121,24 @@
         "description": "NVCleanstall is a tool designed to customize NVIDIA driver installations, allowing advanced users to control more aspects of the installation process.",
         "link": "https://www.techpowerup.com/nvcleanstall/",
         "winget": "TechPowerUp.NVCleanstall",
+        "foss": false
+    },
+    "nvidiaapp": {
+        "category": "Utilities",
+        "choco": "nvidia-app",
+        "content": "NVIDIA App",
+        "description": "NVIDIA App is the control center for NVIDIA graphics drivers and features, combining driver updates, game settings, and display options in one place.",
+        "link": "https://www.nvidia.com/en-us/software/nvidia-app/",
+        "winget": "msstore:XP8CLZL93F5Z4P",
+        "foss": false
+    },
+    "nvidiabroadcast": {
+        "category": "Multimedia Tools",
+        "choco": "nvidia-broadcast",
+        "content": "NVIDIA Broadcast",
+        "description": "NVIDIA Broadcast improves microphones, speakers, and cameras with AI effects such as noise removal, virtual backgrounds, and automatic framing for streaming and calls.",
+        "link": "https://www.nvidia.com/en-us/geforce/broadcasting/broadcast-app/",
+        "winget": "",
         "foss": false
     },
     "obs": {
